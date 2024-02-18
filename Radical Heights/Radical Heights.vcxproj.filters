@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Radical Heights">
+      <UniqueIdentifier>{c440e748-06a3-4b2b-bf93-8b9373ad4c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Radical Heights\Main">
+      <UniqueIdentifier>{320ca69c-b88a-4874-9601-640afb0a4dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Radical Heights\Hooks">
+      <UniqueIdentifier>{7fffbf8c-64bb-4cf4-86f0-0698e10477fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Radical Heights\Hooks\MinHook">
+      <UniqueIdentifier>{b67f0f48-ab00-46b4-a18e-68a86154ac7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Radical Heights\Hooks\MinHook\src">
+      <UniqueIdentifier>{b1144656-ad35-42ca-ac22-dd04d49ca5d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Radical Heights\Hooks\MinHook\include">
+      <UniqueIdentifier>{e4d6c7f4-d6de-4d89-8b1f-7a9ca0b5ed10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Radical Heights\Hooks\MinHook\src\HDE">
+      <UniqueIdentifier>{cee434a5-2b1a-4f58-9c0b-0349a5fbdbc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Radical Heights\Hooks\Drawing">
+      <UniqueIdentifier>{288b57bc-cc59-4de8-af4c-d18e4f243431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Radical Heights\Hooks\Drawing\FontWrapper">
+      <UniqueIdentifier>{b7a8eced-1abf-4751-9870-60503cc221f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>Radical Heights\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Radical Heights\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hde32.c">
+      <Filter>Radical Heights\Hooks\MinHook\src\HDE</Filter>
+    </ClCompile>
+    <ClCompile Include="hde64.c">
+      <Filter>Radical Heights\Hooks\MinHook\src\HDE</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer.c">
+      <Filter>Radical Heights\Hooks\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.c">
+      <Filter>Radical Heights\Hooks\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="trampoline.c">
+      <Filter>Radical Heights\Hooks\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Radical Heights\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1ColorRGBA.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1ColorRGBAInterface.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1DWriteRenderTarget.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1DWriteRenderTargetInterface.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1Factory.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1FactoryInterface.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1FontWrapper.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1FontWrapperInterface.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphAtlas.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphAtlasInterface.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphProvider.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphProviderInterface.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphRenderStates.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphRenderStatesInterface.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphSheet.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphSheetInterface.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphVertexDrawer.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphVertexDrawerInterface.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1StateSaver.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1TextGeometry.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1TextGeometryInterface.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1TextRenderer.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1TextRendererInterface.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11Renderer.cpp">
+      <Filter>Radical Heights\Hooks\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11StateSaver.cpp">
+      <Filter>Radical Heights\Hooks\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1Precompiled.cpp">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hooks.h">
+      <Filter>Radical Heights\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook.h">
+      <Filter>Radical Heights\Hooks\MinHook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="hde32.h">
+      <Filter>Radical Heights\Hooks\MinHook\src\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="hde64.h">
+      <Filter>Radical Heights\Hooks\MinHook\src\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="pstdint.h">
+      <Filter>Radical Heights\Hooks\MinHook\src\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="table32.h">
+      <Filter>Radical Heights\Hooks\MinHook\src\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="table64.h">
+      <Filter>Radical Heights\Hooks\MinHook\src\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="buffer.h">
+      <Filter>Radical Heights\Hooks\MinHook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="trampoline.h">
+      <Filter>Radical Heights\Hooks\MinHook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Radical Heights\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_fx.h">
+      <Filter>Radical Heights\Hooks\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1ColorRGBA.h">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1DWriteRenderTarget.h">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1Factory.h">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1FontWrapper.h">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1GlyphAtlas.h">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1GlyphProvider.h">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1GlyphRenderStates.h">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1GlyphSheet.h">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1GlyphVertexDrawer.h">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1Object.h">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1StateSaver.h">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1TextGeometry.h">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1TextRenderer.h">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11Renderer.h">
+      <Filter>Radical Heights\Hooks\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11Shader.h">
+      <Filter>Radical Heights\Hooks\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11StateSaver.h">
+      <Filter>Radical Heights\Hooks\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11.h">
+      <Filter>Radical Heights\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1CompileSettings.h">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper.h">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1Precompiled.h">
+      <Filter>Radical Heights\Hooks\Drawing\FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.hpp">
+      <Filter>Radical Heights\Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
